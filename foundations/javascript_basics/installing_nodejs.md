@@ -64,37 +64,10 @@ If this returns `nvm: command not found`, close the terminal and re-open it.
 
 <details markdown="block">
 
-<summary class="dropDown-header">Installation on macOS</summary>
-  
-On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
-
-To create the `.zshrc` file and start the nvm installation, run the following commands:
-
-```bash
-touch ~/.zshrc
-```
-
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-```
-
-Restart your terminal, or copy and paste the following into your terminal and press <kbd>Enter</kbd>:
-
-```bash
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-```
-
-Test your nvm installation by running:
-
-```bash
-nvm --version
-```
-
-For more information, read about [installing and updating from NVM's GitHub](https://github.com/nvm-sh/nvm#installation-and-update).
-
+<summary class="dropDown-header">Installation on Windows</summary>
+While the original nvm is for Mac and Linux, there's a version specifically for Windows called nvm-windows, refer to https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/ to install it on Windows. 
 </details>
+
 
 ### Installing Node
 
